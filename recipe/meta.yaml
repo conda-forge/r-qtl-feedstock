@@ -46,7 +46,6 @@ about:
     Analysis of experimental crosses to identify genes (called quantitative trait loci,
     QTLs) contributing to variation in quantitative traits.
   license_family: GPL3
-  license_file: LICENCE
 extra:
    recipe-maintainers:
     - dpryan79
