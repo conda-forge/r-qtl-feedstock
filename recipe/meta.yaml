@@ -17,8 +17,6 @@ source:
 
 build:
   number: 1001
-  skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -26,7 +24,7 @@ build:
 requirements:
   build:
     - posix                # [win]
-    - {{native}}toolchain  # [win]
+    - {{ compiler('m2w64_c') }}  # [win]
     - {{compiler('c')}}    # [not win]
   host:
     - r-base
