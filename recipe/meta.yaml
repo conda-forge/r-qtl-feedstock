@@ -28,11 +28,10 @@ requirements:
     - r-base
     - posix                # [win]
     - {{native}}toolchain  # [win]
-    - gcc                  # [not win]
+    - {{compiler('c')}}    # [not win]
 
   run:
     - r-base
-    - libgcc  # [not win]
 
 test:
   commands:
