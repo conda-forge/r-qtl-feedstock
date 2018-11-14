@@ -25,11 +25,11 @@ build:
 
 requirements:
   build:
-    - r-base
     - posix                # [win]
     - {{native}}toolchain  # [win]
     - {{compiler('c')}}    # [not win]
-
+  host:
+    - r-base
   run:
     - r-base
 
