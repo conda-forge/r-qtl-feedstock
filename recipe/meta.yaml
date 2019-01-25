@@ -1,4 +1,4 @@
-{% set version = '1.41-6' %}
+{% set version = "1.44-9" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/qtl_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/qtl/qtl_{{ version }}.tar.gz
 
-  sha256: 4de9d406d41c2b4f9ffe85ef0af20899f004e93e0d4dd6a9b9fd8b4136f9ea18
+  sha256: 315063f0c3fbb95cd2169eb4109ade0339e8f3c28670b38c3167214b9bdf950e
 
 build:
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
