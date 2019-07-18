@@ -40,6 +40,7 @@ test:
 about:
   home: https://cran.r-project.org/web/packages/qtl/index.html
   license: GPL-3
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: |
     Analysis of experimental crosses to identify genes (called quantitative trait loci,
     QTLs) contributing to variation in quantitative traits.
@@ -47,11 +48,6 @@ about:
 extra:
    recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
-    - Johanneskoester
-    - Bgruening
-    - Daler
-    - Jdblischak
