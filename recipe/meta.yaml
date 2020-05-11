@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,6 +32,8 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - libblas
+    - liblapack
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
@@ -43,7 +45,7 @@ test:
 
 about:
   home: https://rqtl.org, https://github.com/kbroman/qtl
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits. Broman et al.
     (2003) <doi:10.1093/bioinformatics/btg112>.
   license_family: GPL3
