@@ -3,7 +3,7 @@ About r-qtl
 
 Home: https://rqtl.org, https://github.com/kbroman/qtl
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: BSD 3-Clause
 
