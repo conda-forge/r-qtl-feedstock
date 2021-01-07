@@ -1,4 +1,4 @@
-{% set version = "1.46-2" %}
+{% set version = "1.47-9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/qtl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/qtl/qtl_{{ version }}.tar.gz
-  sha256: 6a20599ba36b48ba802f9a1b6884f27808b2ef00bddfa75bc0cf24efb7657c65
+  sha256: 6ba4e7b40d946b3ab68d54624599284b1d352c86fb50d31b134826be758ece41
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -46,8 +46,7 @@ test:
 about:
   home: https://rqtl.org, https://github.com/kbroman/qtl
   license: GPL-3.0-only
-  summary: Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits. Broman et al.
-    (2003) <doi:10.1093/bioinformatics/btg112>.
+  summary: Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits. Broman et al. (2003) <doi:10.1093/bioinformatics/btg112>.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
