@@ -1,11 +1,22 @@
+About r-qtl-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-qtl-feedstock/blob/main/LICENSE.txt)
+
 About r-qtl
-===========
+-----------
 
 Home: https://rqtl.org, https://github.com/kbroman/qtl
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-qtl-feedstock/blob/main/LICENSE.txt)
+Summary: Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits. Broman et al. (2003) <doi:10.1093/bioinformatics/btg112>.
+About r-qtl
+-----------
+
+Home: https://rqtl.org, https://github.com/kbroman/qtl
+
+Package license: GPL-3.0-only
 
 Summary: Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits. Broman et al. (2003) <doi:10.1093/bioinformatics/btg112>.
 
